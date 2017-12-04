@@ -1,0 +1,156 @@
+#parteCima {
+	width: 100%;
+	height: 50px;
+}
+
+#logo {
+	height: 113px;
+	width: 115px;
+	margin-left: 400px;
+	padding: 13px;
+}
+
+#cima {
+	height: 113px;
+	min-width: 1200px;
+
+}
+
+#nomeEmpresa {
+	margin: 12px;
+}
+
+#ulCima {
+	height: 50px;
+	width: 500px;
+	float: right;
+	margin-right: 200px;
+	margin-top: 44px;
+}
+
+.lista {
+	float: right;
+	list-style-type: none;
+	height: 39px;
+	width: 39px;
+}
+#lista {
+	float: right;
+	list-style-type: none;
+	height: 30px;
+	width: 178px;
+	background-color:rgba(255,255,255,0);
+	border-radius: 7px;
+}
+
+.redes {
+	height: 29px;
+	width: 29px;
+	border-radius: 16px ;
+}
+
+#imgPesquisa {
+	float: right;
+	width: 32px;
+	margin-left: -31px;
+	position: relative;
+}
+
+#pInput {
+	margin: 0px;
+}
+
+
+#menu {
+	height: 85px;
+	background-color: hsl(327, 72%, 57%);
+	min-width: 1615px;
+}
+
+.liMenu {
+	float:left;
+	width: 125px;
+	height: 100%;
+	text-align: center;
+	cursor: pointer;
+
+}
+.liMenu:hover {
+	background-color: white;
+
+}
+
+#ulMenu {
+	list-style-type: none;
+	height: 100%;
+	min-width: 900px;
+	
+}
+
+.imgMenu {
+	height: 64px;
+	width: 85px;
+}
+
+#imgMenu1 {
+	height: 87px;
+	width: 95px;
+}
+
+#imgMenu2 {
+	height: 80px;
+	width: 80px;
+	margin-right: 35px;
+}
+
+#imgCarrinho {
+	float: right;
+}
+
+.d-block {
+	height: 450px;
+	width: 700px;
+}
+
+#listaMenu {
+	display: none;
+	position: absolute;
+	z-index: 9999;
+	background-color: #ea50ad;
+}
+#listaMenu:hover {
+	display: block;
+	position: absolute;
+    z-index: 9999;
+}
+
+.card-image-top {
+	height: 200px;
+}
+.pincel-card {
+	margin-top: 20px;
+	
+}
+body {
+	min-width: 1400px;
+	margin: 0px;
+}
+#pinceis {
+	display: none;
+}
+#sombras {
+	display: none;
+}
+
+.card:hover {
+	background-color: black;
+	color: white;
+}
+
+
+
+
+
+
+
+
