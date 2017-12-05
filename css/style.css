@@ -141,6 +141,9 @@ body {
 #sombras {
 	display: none;
 }
+#blush {
+	display: none;
+}
 
 .card:hover {
 	background-color: black;
