@@ -4,6 +4,15 @@ $(document).ready(function () {
             $("#listaMenu").toggle();
       });
 
+      $("#imgHome").click(function () {
+            $("#inicio").show();
+            $("#pinceis").hide();
+            $("#sombras").hide();
+            $("#blush").hide();
+            $("#batom").hide();
+            $("#esmaltes").hide();
+            $("#perfumes").hide();
+      });
       $("#imgPincel").click(function () {
             $("#pinceis").show();
             $("#sombras").hide();
@@ -11,6 +20,7 @@ $(document).ready(function () {
             $("#batom").hide();
             $("#esmaltes").hide();
             $("#perfumes").hide();
+            $("#inicio").hide();
       });
       $("#imgSombras").click(function () {
             $("#sombras").show();
@@ -19,6 +29,7 @@ $(document).ready(function () {
             $("#batom").hide();
             $("#esmaltes").hide();
             $("#perfumes").hide();
+            $("#inicio").hide();
       });
       $("#imgBlush").click(function () {
             $("#blush").show();
@@ -27,6 +38,7 @@ $(document).ready(function () {
             $("#batom").hide();
             $("#esmaltes").hide();
             $("#perfumes").hide();
+            $("#inicio").hide();
       });
       $("#imgBatom").click(function () {
             $("#batom").show();
@@ -35,6 +47,7 @@ $(document).ready(function () {
             $("#sombras").hide();
             $("#esmaltes").hide();
             $("#perfumes").hide();
+            $("#inicio").hide();
       });
       $("#imgEsmalte").click(function () {
             $("#esmaltes").show();
@@ -43,6 +56,7 @@ $(document).ready(function () {
             $("#pinceis").hide();
             $("#sombras").hide();
             $("#perfumes").hide();
+            $("#inicio").hide();
       });
       $("#imgPerfumes").click(function () {
             $("#perfumes").show();
@@ -51,5 +65,6 @@ $(document).ready(function () {
             $("#pinceis").hide();
             $("#sombras").hide();
             $("#esmaltes").hide();
+            $("#inicio").hide();
       });
 });
