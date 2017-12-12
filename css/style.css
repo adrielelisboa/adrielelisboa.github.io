@@ -1,30 +1,8 @@
-#parteCima {
-	width: 100%;
-	height: 50px;
-}
 
 #logo {
 	height: 200px;
 	width: 371px;
 	margin-left: 740px;
-}
-
-#cima {
-	width: 100%;
-	height: 200px;
-	min-width: 1200px;
-}
-
-#nomeEmpresa {
-	margin: 12px;
-}
-
-#ulCima {
-	height: 30px;
-	width: 500px;
-	float: right;
-	margin-right: 200px;
-	margin-top: 33px;
 }
 
 .lista {
@@ -43,22 +21,24 @@
 }
 
 .redes {
+	width: 100%;
+	margin-top: -16px;
+	
+}
+#redes1 {
 	height: 29px;
 	width: 29px;
 	border-radius: 16px ;
-}
-
-#imgPesquisa {
 	float: right;
-	width: 32px;
-	margin-left: -31px;
-	position: relative;
+	margin-left: 8px;
 }
-
-#pInput {
-	margin: 0px;
+#redes2 {
+	height: 25px;
+	width: 25px;
+	border-radius: 16px ;
+	float: right;
+	margin-top: 3px;
 }
-
 
 #menu {
 	height: 70px;
@@ -72,8 +52,9 @@
 	height: 100%;
 	text-align: center;
 	cursor: pointer;
-	margin-right: 50px;
-	padding: 19px;
+	margin-right: 130px;
+	padding: 10px;
+	
 }
 .liMenu:hover {
 	background-color: #F09BC9;
@@ -87,6 +68,9 @@
 	
 }
 
+#imgHome {
+	margin-left: 62px; ;
+}
 .imgMenu {
 	height: 64px;
 	width: 85px;
@@ -102,12 +86,6 @@
 	height: 70px;
 	width: 70px;
 	margin-right: 35px;
-}
-
-#imgCarrinho {
-	float: right;
-	width: 96px;
-	margin-right: 50px;
 }
 
 .d-block {
@@ -172,10 +150,30 @@ body {
 }
 
 #promocao {
-	font-size: 60px;
+	font-size: 80px;
 	text-align: center;
+	font-family: promocao;
+	margin-top: 50px;
+}
+@font-face {
+	font-family: promocao;
+	src: url("../vampire-calligraphy/fontPromocao.otf");	
+}
+@font-face {
+	font-family: palavraMenu;
+	src: url("../knight-brush-demo/fontHome.otf");
 }
 
 .palavraMenu {
-	font-size: 17px;
+	font-size: 31px;
+	font-family: palavraMenu;
+}
+
+.promocao {
+	text-decoration: line-through;
+	color: red;
+}
+hr {
+	margin-top: 600px;
+	width: 100%;
 }
