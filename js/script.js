@@ -6,6 +6,7 @@ $(document).ready(function () {
 
       $("#imgHome").click(function () {
             $("#inicio").show();
+            $("#frase").show();
             $("#pinceis").hide();
             $("#sombras").hide();
             $("#blush").hide();
@@ -21,6 +22,7 @@ $(document).ready(function () {
             $("#esmaltes").hide();
             $("#perfumes").hide();
             $("#inicio").hide();
+            $("#frase").hide();
       });
       $("#imgSombras").click(function () {
             $("#sombras").show();
@@ -30,6 +32,7 @@ $(document).ready(function () {
             $("#esmaltes").hide();
             $("#perfumes").hide();
             $("#inicio").hide();
+            $("#frase").hide();
       });
       $("#imgBlush").click(function () {
             $("#blush").show();
@@ -39,6 +42,7 @@ $(document).ready(function () {
             $("#esmaltes").hide();
             $("#perfumes").hide();
             $("#inicio").hide();
+            $("#frase").hide();
       });
       $("#imgBatom").click(function () {
             $("#batom").show();
@@ -57,6 +61,7 @@ $(document).ready(function () {
             $("#sombras").hide();
             $("#perfumes").hide();
             $("#inicio").hide();
+            $("#frase").hide();
       });
       $("#imgPerfumes").click(function () {
             $("#perfumes").show();
@@ -66,5 +71,6 @@ $(document).ready(function () {
             $("#sombras").hide();
             $("#esmaltes").hide();
             $("#inicio").hide();
+            $("#frase").hide();
       });
 });
